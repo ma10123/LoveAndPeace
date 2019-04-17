@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:root@39.105.223.59:27017/LoveAndPeace
+  datasource:
+    url: jdbc:mysql://39.105.223.59:3306/LoveAndPeace
+    username: root
+    password: 12345678
+server:
+  port: 80
